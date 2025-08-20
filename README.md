@@ -49,7 +49,9 @@ zetr
 
 ### Limitations
 - output is corrupted if terminal is too small
-- only works on linux (prefferably arch btw)
-- only test on arch btw
+- only works on linux (preferably arch btw)
+- only tested on arch btw
+
+### I don't know why this is here
 - arch btw
 - i like arch btw
