@@ -69,6 +69,7 @@ pub fn reset(self: *Self) void {
         .{ .r = 0, .c = NUM_COLS / 2 },
     );
     self.rand = rand;
+    lineCount = 0;
 }
 
 pub fn init(term: main.Terminal, renderer: main.Renderer) Self {
