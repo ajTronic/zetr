@@ -32,6 +32,12 @@ cp zig-out/bin/zetr /usr/local/bin/zetr
 zetr
 ```
 
+### Uninstall
+Why would ever do such a thing? I don't know.
+```bash
+sudo rm /usr/local/bin/zetr
+```
+
 ### Usage
 ```sh
 zetr
