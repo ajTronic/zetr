@@ -15,3 +15,22 @@
 
 *if you imagine them hard enough
 
+### Install
+```sh
+curl -ffSL https://raw.githubusercontent.com/ajTronic/zetr/main/install.sh | sh 
+```
+
+### Usage
+```sh
+zetr
+```
+
+### Controls
+| Key      | Action  |
+| -------- | ------- |
+| h  | move tetronimo left    |
+| l | move tetronimo right     |
+| j    | move tetronimo down    |
+| k    | rotate tetronimo clockwise    |
+| o    | rotate tetronimo anticlockwise    |
+| <space>    | hard drop    |
