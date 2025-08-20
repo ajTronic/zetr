@@ -16,8 +16,17 @@
 *if you imagine them hard enough
 
 ### Install
-```sh
+Run the quick install script and it'll install _zetr_ in a matter of seconds.
+```bash
 curl -ffSL https://raw.githubusercontent.com/ajTronic/zetr/main/install.sh | sh 
+```
+If for some reason you don't want to use the install script, build it from source (still only works on Linux terminals) 
+```bash
+git clone https://github.com/ajTronic/zetr.git
+cd zetr
+zig build
+cp zig-out/bin/zetr /usr/local/bin/zetr
+zetr
 ```
 
 ### Usage
@@ -34,3 +43,10 @@ zetr
 | k    | rotate tetronimo clockwise    |
 | o    | rotate tetronimo anticlockwise    |
 | space    | hard drop    |
+
+### Limitations
+- output is corrupted if terminal is too small
+- only works on linux (prefferably arch btw)
+- only test on arch btw
+- arch btw
+- i like arch btw
