@@ -33,4 +33,4 @@ zetr
 | j    | move tetronimo down    |
 | k    | rotate tetronimo clockwise    |
 | o    | rotate tetronimo anticlockwise    |
-| <space>    | hard drop    |
+| space    | hard drop    |
