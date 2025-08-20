@@ -12,6 +12,8 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 
+printf "Installing zetr...\n"
+
 sudo -v
 
 wget https://github.com/ajTronic/zetr/releases/download/untagged-020ebe47e85a454a86ef/zetr
