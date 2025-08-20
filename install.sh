@@ -16,7 +16,7 @@ printf "Installing zetr...\n"
 
 sudo -v
 
-wget https://github.com/ajTronic/zetr/releases/download/untagged-020ebe47e85a454a86ef/zetr
+wget https://github.com/ajTronic/zetr/releases/download/1/zetr
 
 sudo mv zetr /usr/local/bin/zetr
 chmod +x /usr/local/bin/zetr
